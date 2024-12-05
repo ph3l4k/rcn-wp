@@ -1,0 +1,29 @@
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración de IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar dependencias
+node_modules/
+vendor/
+.composer.lock
+
+# Ignorar archivos de compilación
+dist/
+build/
+*.log
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de prueba
+coverage/
+*.test.js
+*.spec.js
